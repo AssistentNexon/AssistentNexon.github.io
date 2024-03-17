@@ -18,8 +18,8 @@ const downloadCv = document.getElementById("download-cv");
 
 downloadCv.addEventListener("click", (e) => {
   const aElement = document.createElement("a");
-  aElement.setAttribute("download", "CV.pdf");
-  aElement.setAttribute("href", "/assets/CV.pdf");
+  aElement.setAttribute("download", "Script-Bot.zip");
+  aElement.setAttribute("href", "/assets/Script-Bot.zip");
   aElement.click();
 });
 
